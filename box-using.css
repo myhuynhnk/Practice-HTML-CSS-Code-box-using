@@ -35,6 +35,11 @@ span {
     color:  #eb5b52;
 }
 
+.box-using__form {
+    padding: 1rem;
+    background-color: rgb(255,255,255,0.4);
+}
+
 .box-using__input {
     padding: 1rem;
     height: 3rem;
@@ -56,7 +61,7 @@ span {
     height: 3rem;
     background-color: #eb5b52;
     color: #fff;
-    font-size: 1rem;
+    font-size: 1.4rem;
     border: none;
 }
 
@@ -64,7 +69,3 @@ span {
     background-color: #b02820;
 }
 
-.box-using__form {
-    padding: 1rem;
-    background-color: rgb(255,255,255,0.4);
-}

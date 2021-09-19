@@ -1,0 +1,125 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-color : #eb5b52;
+    --text-color: #fffcfc;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: 'poppins', sans-serif;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.7)), 
+    url(image/img.jpg) ;
+    background-size: cover;
+    background-position: center;
+}
+
+header {
+    padding: 20px 6%;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+header a {
+    text-decoration: none;
+    font-size: 2.2rem;
+    color: var(--text-color);
+    padding: 2px 10px;
+}
+
+.icon {
+    font-size: 2.4rem;
+    margin-right: 3px;
+    color: var(--primary-color);
+}
+
+.nav ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    list-style: none;
+}
+
+.nav ul li {
+    margin-left: 3px;
+    padding: 3px 20px;
+}
+
+
+.box-using {
+    width: 100%;
+    height: 85%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0.75rem;
+    
+}
+
+.box-using__header {
+    font-size: 4rem;
+    text-align: center;
+    color: var(--text-color);
+    margin-bottom: 5rem;
+    letter-spacing: 1px;
+}
+
+span {
+    color:  var(--primary-color);
+}
+
+.box-using__form {
+    padding: 1rem;
+    background-color: rgba(255,255,255,0.4);
+    border-radius: 2px;
+}
+
+.box-using__input {
+    height: 3rem;
+    padding: 1rem;
+    border: none;
+    border-radius: 2px;
+    outline: none;
+}
+
+.box-using__input::placeholder {
+    color: var(--primary-color);
+    font-size: 1.2rem;
+}
+
+.box-using__input--search {
+    width: 35rem;
+}
+
+.box-using__input--location {
+    width: 15rem;
+}
+
+
+.box-using__btn {
+    width: 8rem;
+    height: 3rem;
+    font-size: 1.4rem;
+    background-color: var(--primary-color);
+    color: var(--text-color);
+    border: none;
+}
+
+.box-using__btn:hover {
+    background-color: #b02820;
+    transition: 0.2s linear;
+    cursor: pointer;
+}
